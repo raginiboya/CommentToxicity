@@ -325,3 +325,9 @@ The dataset used for this project can be downloaded from the following Google Dr
 
 Download both `train.csv` and `test.csv` and place them inside the `data/` folder before running the notebook or performing bulk predictions.
 
+## Live Demo
+
+The deployed Streamlit application is available here:
+
+**Live App:** https://raginiboya-commenttoxicity-dataapp-d9ozyl.streamlit.app/
+
