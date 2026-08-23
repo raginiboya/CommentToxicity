@@ -74,6 +74,21 @@ col1.metric("Micro F1-Score", "0.72")
 col2.metric("Weighted F1-Score", "0.69")
 col3.metric("Toxic F1-Score", "0.79")
 
+# Data insights
+st.divider()
+
+st.subheader("Dataset Insights")
+
+col1, col2, col3 = st.columns(3)
+
+col1.metric("Total Training Comments", "159,571")
+col2.metric("Toxic Comments", "15,294")
+col3.metric("Toxic Percentage", "9.58%")
+
+st.write(
+    "The dataset is imbalanced, with toxic comments representing "
+    "approximately 9.58% of the training data."
+)
 
 # Sample test cases
 st.divider()
