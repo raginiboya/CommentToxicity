@@ -27,6 +27,7 @@ def predict_comment(text, tokenizer, model):
 
     return prediction
 
+
 def predict_bulk(comments, tokenizer, model, labels):
     cleaned_comments = (
         comments
