@@ -316,3 +316,12 @@ CommentToxicity/
 * **tokenizer.pkl** – Saved tokenizer used to preprocess new comments.
 * **requirements.txt** – Python libraries required to run the project.
 * **README.md** – Complete project documentation.
+
+## Dataset Access
+
+The dataset used for this project can be downloaded from the following Google Drive folder:
+
+**Dataset:** https://drive.google.com/drive/folders/1WXLTp57_TYa61rcPfQIzRUcE1Rz76Emk?usp=sharing
+
+Download both `train.csv` and `test.csv` and place them inside the `data/` folder before running the notebook or performing bulk predictions.
+
